@@ -1,28 +1,28 @@
-# Desafio de Componentes e Injeção de Dependência com Spring Boot
+📦 # Desafio de Componentes e Injeção de Dependência com Spring Boot
 
-## Descrição breve do projeto
+📝 ## Descrição breve do projeto
 
 Este projeto é uma aplicação Java desenvolvida com Spring Boot para calcular o valor total de um pedido. O cálculo inclui a aplicação de um desconto ao valor básico do pedido e a adição do valor do frete, seguindo regras específicas. A aplicação exemplifica o uso de componentes e injeção de dependência, promovendo a separação de responsabilidades e boas práticas de desenvolvimento.
 
-## Problema que o projeto resolve
+🚀 ## Problema que o projeto resolve
 
 O projeto resolve o problema de cálculo do valor total de um pedido, considerando um percentual de desconto e o custo do frete.
 O sistema permite que diferentes componentes cuidem de responsabilidades específicas: um componente para o cálculo do frete e outro para o cálculo do valor total do pedido.
 
-## Instruções de instalação e execução
+💻 ## Instruções de instalação e execução
 
-### Pré-requisitos
+📋 ### Pré-requisitos
 
 - Java 11 ou superior
 - Maven
 
-### Passos para instalação e execução
+🛠️ ### Passos para instalação e execução
 
 1. **Clone o repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/desafio-spring-boot.git
-   cd desafio-spring-boot
+   git clone https://github.com/RianMarques-2002/DESAFIO_JAVA.git
+   cd DESAFIO_JAVA
    ```
 
 2. **Compile o projeto**
@@ -39,7 +39,7 @@ O sistema permite que diferentes componentes cuidem de responsabilidades especí
 
 4. **Acesse a aplicação**
 
-   A aplicação estará disponível em `http://localhost:8080`.
+   A aplicação estará disponível no localhost em `http://localhost:8080`.
 
 ### Exemplo de requisição
 
@@ -49,14 +49,14 @@ Você pode calcular o valor total de um pedido utilizando o endpoint `/order/tot
 curl "http://localhost:8080/order/total?code=1034&basicValue=150.00&discountPercentage=20.0"
 ```
 
-A resposta será:
+A resposta deverá sair como:
 
 ```
 Pedido código 1034
 Valor total: R$ 132.00
 ```
 
-## O que aprendi com esse projeto
+🔍 ## O que aprendi com esse projeto
 
 Durante o desenvolvimento deste projeto, aprendi a:
 
